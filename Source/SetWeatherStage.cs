@@ -2,11 +2,11 @@
 
 namespace EternalWeather;
 
-internal class SetWeatherStage
+internal static class SetWeatherStage
 {
     internal static void WeatherStageChange()
     {
-        WeatherStageSettings selectedWeather = Settings.Instance.ChooseWeatherStage;
+        var selectedWeather = Settings.Instance.ChooseWeatherStage;
 
         if (selectedWeather == WeatherStageSettings.Default)
         {
@@ -14,7 +14,7 @@ internal class SetWeatherStage
             return;
         }
 
-        WeatherStage actualWeatherStage = WeatherStageEnumMapping(Settings.Instance.ChooseWeatherStage);
+        var actualWeatherStage = WeatherStageEnumMapping(Settings.Instance.ChooseWeatherStage);
         GameManager.GetWeatherTransitionComponent().ForceUnmanagedWeatherStage(actualWeatherStage, 0f);
     }
 

@@ -16,6 +16,6 @@ using BuildInfo = EternalWeather.Properties.BuildInfo;
 [assembly: MelonInfo(typeof(Mod), BuildInfo.GUIName, BuildInfo.Version, BuildInfo.Author, BuildInfo.DownloadLink)]
 [assembly: MelonGame("Hinterland", "TheLongDark")]
 
-[assembly: VerifyLoaderVersion(BuildInfo.MelonLoaderVersion, true)]
+[assembly: VerifyLoaderVersion(BuildInfo.MinimumMelonLoaderVersion, true)]
 [assembly: MelonPriority(BuildInfo.Priority)]
-[assembly: MelonIncompatibleAssemblies(BuildInfo.IncompatibleMods)]
+[assembly: MelonIncompatibleAssemblies(null)] // Put any incompatible assemblies here like: ("DisableBreathEffect", "NonPotableToiletWater").
