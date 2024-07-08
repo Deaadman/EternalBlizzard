@@ -29,7 +29,7 @@ Eternal Weather is a modification that allows the player to change the weather f
 ### Required Dependencies:
 For optimal functionality of this modification, ensure you have the following versions or newer:
 
-- [**The Long Dark**](https://store.steampowered.com/news/app/305620) - Version: **v2.30**
+- [**The Long Dark**](https://store.steampowered.com/news/app/305620) - Version: **v2.31**
 - [**MelonLoader**](https://github.com/LavaGang/MelonLoader/releases) - Version: **v0.6.1**
 - [**Mod Settings**](https://github.com/DigitalzombieTLD/ModSettings) - Version: **v2.0.0** 
 
