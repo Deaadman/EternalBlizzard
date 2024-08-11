@@ -18,4 +18,4 @@ using BuildInfo = EternalWeather.Properties.BuildInfo;
 
 [assembly: VerifyLoaderVersion(BuildInfo.MinimumMelonLoaderVersion, true)]
 [assembly: MelonPriority(BuildInfo.Priority)]
-[assembly: MelonIncompatibleAssemblies(null)] // Put any incompatible assemblies here like: ("DisableBreathEffect", "NonPotableToiletWater").
+[assembly: MelonIncompatibleAssemblies(null)]

@@ -18,10 +18,7 @@ internal static class SetWeatherStage
         GameManager.GetWeatherTransitionComponent().ForceUnmanagedWeatherStage(actualWeatherStage, 0f);
     }
 
-    private static void ForceDefaultWeather(WeatherTransition wt)
-    {
-        wt.ActivateDefaultWeatherSet();
-    }
+    private static void ForceDefaultWeather(WeatherTransition wt) => wt.ActivateDefaultWeatherSet();
 
     private static WeatherStage WeatherStageEnumMapping(WeatherStageSettings wss)
     {
